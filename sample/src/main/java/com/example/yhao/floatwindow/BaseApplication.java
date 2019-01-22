@@ -69,6 +69,7 @@ public class BaseApplication extends Application {
                 .setView(R.layout.view)
                 .setWidth(Screen.width, 0.5f) //设置悬浮控件宽高
                 .setHeight(Screen.width, 0.5f)
+                .setMoveType(MoveType.inactive,100,-100)
                 .setTag("new")
                 .build();
 
